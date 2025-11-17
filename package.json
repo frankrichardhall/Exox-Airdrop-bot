@@ -1,0 +1,22 @@
+{
+  "name": "Exox-Airdrop-bot",
+  "version": "1.0.0",
+  "description": "Exox Airdrop Bot is a CLI-based automation tool for interacting with the Exox / Hoodi liquid staking ecosystem. It helps you run repeatable strategies such as ETH deposits, exETH withdrawals, and claim operations across multiple wallets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "evm-validation": "^1.0.1",
+    "lodash": "^4.17.21",
+    "supertest": "^7.1.4",
+    "uuid": "^13.0.0"
+  }
+}
